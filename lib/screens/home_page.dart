@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
-class MainApp extends StatefulWidget {
-  const MainApp({super.key});
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
 
   @override
-  State<MainApp> createState() => _MainAppState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _MainAppState extends State<MainApp> {
+class _HomePageState extends State<HomePage> {
+  FirebaseFirestore db = FirebaseFirestore.instance;
+
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Scaffold();
   }
 }
