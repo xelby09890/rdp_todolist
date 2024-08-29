@@ -12,6 +12,7 @@ dependencies:
   firebase: ^9.0.3
   flutter: 
     sdk: flutter
+  table_calendar: ^3.1.2
 
 dev_dependencies:
   flutter_test:
@@ -20,3 +21,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/
+  fonts:
+    - family: Caveat
+      fonts:
+      - asset: assets/Caveat-Regular.ttf
